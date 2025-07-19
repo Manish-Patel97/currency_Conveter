@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # currency_conveter
 
 A new Flutter project.
@@ -18,4 +18,4 @@ samples, guidance on mobile development, and a full API reference.
 =======
 # currency_Conveter
 Simple currency conveter app USD to INR
->>>>>>> 8db74a1a9d46cd6d3aabd0b5bde7dc551a036696
+
