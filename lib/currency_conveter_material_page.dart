@@ -12,6 +12,12 @@ class _CurrencyConveterMaterialPageState extends State<CurrencyConveterMaterialP
  double result = 0;
 final TextEditingController textEditingController = TextEditingController();
 
+@override
+void dispose(){
+  textEditingController.dispose();
+  super.dispose();
+}    
+
 void convert(){
 if (textEditingController.text.isNotEmpty) {
                       setState(() {
